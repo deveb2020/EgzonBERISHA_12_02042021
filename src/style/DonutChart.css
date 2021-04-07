@@ -1,0 +1,27 @@
+.Doughnut-Box {
+    width: 250px;
+    height: 250px;
+    background-color: #d8d4d498;
+    padding: 1rem;
+    position: relative;
+    border-radius: 10px;
+    margin-left: 1.5rem;
+}
+  
+  .Doughnut-Box>.score {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+  }
+  
+  .midle-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .midle-text>span {
+    font-size: 1.5rem;
+    text-align: center;
+  }

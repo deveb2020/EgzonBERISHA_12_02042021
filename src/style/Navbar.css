@@ -1,0 +1,30 @@
+nav {
+    width: 100%;
+    height: 5rem;
+    background-color: #020203;
+    margin: 0;
+    display: flex;
+}
+
+.logo {
+    margin-top: 0.9rem;
+    margin-left: 1rem;
+    margin-right: 10rem !important;
+}
+
+.navbar-elements {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    color: white;
+    justify-content: space-between;
+    padding-right: 5rem;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+}
+
+.navbar-elements>li {
+    font-size: 1.2rem;
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.dashboard {
+    display: flex;
+}
+
+.inline-charts {
+    display: flex;
+}
+
+.charts-wrapper {
+    margin-top: 3rem;
+    margin-left: 5rem;
+}

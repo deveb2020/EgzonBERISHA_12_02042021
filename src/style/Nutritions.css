@@ -1,0 +1,67 @@
+.nutrtions-parentdiv {
+    width: 25rem;
+    padding: 0;
+    margin-top: 15rem;
+}
+
+.nutrtions-parentdiv>ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.nutrtions-parentdiv>ul>li {
+    width: 15rem;
+    height: 6rem;
+    background-color: rgba(240, 233, 233, 0.616);
+    margin: 4rem auto;
+    border-radius: 5px;
+}
+
+.inside-content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.icon-box {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 5px;
+    margin: auto 0;
+    position: relative;
+}
+
+.icon-box>img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fire-bkg {
+    background-color: #fdc2c2d8;
+}
+
+.chicken-bkg {
+    background-color: #bce1fad8;
+}
+
+.apple-bkg {
+    background-color: #f1e4af;
+}
+
+.burger-bkg {
+    background-color: rgba(253, 81, 129, 0.1);
+}
+
+.quantity {
+    margin-bottom: 0;
+    margin-left: 1rem;
+}
+
+.nutrition-type {
+    margin-top: 0.2rem;
+    margin-left: 1rem;
+}

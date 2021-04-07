@@ -1,0 +1,24 @@
+.Line-chart {
+    width: 250px;
+    height: 250px;
+    background-color: #E60000;
+    padding: 1rem;
+    position: relative;
+    border-radius: 10px;
+    margin-right: 1.5rem;
+  }
+  
+  .Line-chart>p {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    color: white;
+  }
+  
+  .Line-chart-box {
+    width: 100%;
+    height: 180px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }

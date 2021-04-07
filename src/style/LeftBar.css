@@ -1,0 +1,44 @@
+.leftbar {
+    width: 5rem;
+    height: 833px;
+    background-color: #020203;
+    position: relative;
+}
+
+.leftbar-icons {
+    margin: 0;
+    display: block;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.leftbar-icons>li {
+    width: 3rem;
+    height: 3rem;
+    background-color: #fff;
+    margin: 1rem auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+}
+
+.leftbar-icons>li>img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.vertical-text {
+    color: white;
+    text-orientation: sideways;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    font-size: 0.8rem;    
+}
