@@ -26,7 +26,6 @@ Build a user profile page in React, fetching data from a NodeJS external server,
 
 ## Install and run the project
 
-___________________________________________________________________________________________________________________________
 Step 1 - Before opening the project make sure to start the local server first so the data can be displayed as they should 
 ----------------------------------------------------------------------------------------------------------------------------
 
@@ -34,7 +33,6 @@ Step 1 - Before opening the project make sure to start the local server first so
 
 [Backend API](https://github.com/OpenClassrooms-Student-Center/P9-front-end-dashboard)
 
-_________________________________________________________________________________
 Step 2 -You can use Option A or B as prefered to install the project in your pc
 ---------------------------------------------------------------------------------
 
