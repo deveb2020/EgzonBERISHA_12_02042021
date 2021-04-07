@@ -1,6 +1,6 @@
 # OPENCLASSROOMS PROJECT 12
 
-Build a user profile page in React, fetching data from a NodeJS external server.
+Build a user profile page in React, fetching data from a NodeJS external server, displaying data visually using charts.
 
 ## Dependencies
 
@@ -26,24 +26,33 @@ Build a user profile page in React, fetching data from a NodeJS external server.
 
 ## Install and run the project
 
-1 - Clone the project to your computer
-
-2 - Download the file to your computer
-
-- Go to the project folder
-
-- Install the packages
-
-`npm i`
-
-- Run the project (port 3006 by default)
-
-`npm start`
+___________________________________________________________________________________________________________________________
+Step 1 - Before opening the project make sure to start the local server first so the data can be displayed as they should 
+----------------------------------------------------------------------------------------------------------------------------
 
 - To get the backend API, fork this repo and follow the instructions
 
 [Backend API](https://github.com/OpenClassrooms-Student-Center/P9-front-end-dashboard)
 
-- The 2 URL available (for the 2 users) are:
-  - `http://localhost:3006/user/12`
-  - `http://localhost:3006/user/18`
+_________________________________________________________________________________
+Step 2 -You can use Option A or B as prefered to install the project in your pc
+---------------------------------------------------------------------------------
+
+A - Clone the project using HTTPS github link: `https://github.com/deveb2020/EgzonBERISHA_12_02042021.git`
+
+B - Download the project as ZIP 
+
+- Go to the project folder
+
+- Install the packages 
+
+`npm install`
+
+- Run the project
+
+`npm start`
+
+
+-Add one of the two paths into the actual URL
+  - `/user/12`
+  - `/user/18`
